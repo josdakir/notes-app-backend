@@ -1,0 +1,23 @@
+{
+  "name": "backend_app_note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --ext .js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.25.0",
+    "nodemon": "2.0.20"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2"
+  }
+}
